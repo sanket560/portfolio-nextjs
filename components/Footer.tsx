@@ -4,6 +4,7 @@ import linkedin from "../Images/linkedin.svg";
 import Image from "next/image";
 import footerimg from "../Images/footer-grid.svg";
 import { GoRepoForked } from "react-icons/go";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -27,13 +28,13 @@ const Footer = () => {
           Fork This Template On GitHub Start Building Your Own Portfolio
           Website.
         </p>
-        <a href="mailto:contact@jsmastery.pro">
+        <Link href="https://github.com/sanket560/portfolio-nextjs">
           <MagicButton
             title="Fork This Repo"
             icon={<GoRepoForked />}
             position="right"
           />
-        </a>
+        </Link>
       </div>
 
       <div className="relative flex mt-16 md:flex-row flex-col gap-3 justify-between items-center z-10">

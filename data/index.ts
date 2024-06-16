@@ -16,6 +16,15 @@ import exp1 from '../Images/exp1.svg'
 import exp2 from '../Images/exp2.svg'
 import exp3 from '../Images/exp3.svg'
 
+export const navItems = [
+  { name: "About", link: "#about" },
+  { name: "Education", link: "#education" },
+  { name: "Projects", link: "#projects" },
+  { name: "Experience", link: "#experience" },
+  { name: "Skills", link: "#skills" },
+  { name: "Contact", link: "#contact" },
+];
+
 export const education = [
   {
     course: "Bachelor Of Technology In Computer Engineering",

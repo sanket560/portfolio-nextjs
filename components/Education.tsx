@@ -4,7 +4,7 @@ import { education } from "@/data";
 
 const Education = () => {
   return (
-    <div className="mt-10">
+    <div className="mt-10" id="education">
       <div className="flex mb-16 justify-center my-5 lg:py-8">
         <div className="flex items-center">
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
