@@ -56,7 +56,7 @@ const Contact = () => {
         </div>
       </div>
       <p className="text-xl pb-10 text-center text-[#d3d8e8]">
-        If you have any questions or concerns, please don't hesitate to contact
+        If you have any questions or concerns, please don&apos;t hesitate to contact
         me.
       </p>
       <div className="max-w-3xl mx-auto text-white rounded-lg border border-[#464c6a] p-3 lg:p-5">

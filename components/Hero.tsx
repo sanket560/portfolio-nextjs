@@ -36,7 +36,7 @@ const Hero = () => {
             Hi There,
           </p>
           <p className="md:tracking-wider font-bold mb-4 text-4xl md:text-5xl lg:text-5xl">
-            I'm Sanket Mane
+            I&apos;m Sanket Mane
           </p>
           <TextGenerateEffect
             className="uppercase tracking-widest text-xl text-blue-100 "
