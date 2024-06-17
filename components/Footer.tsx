@@ -8,7 +8,10 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="relative w-full md:first-letter:mt-40 pb-10" id="contact">
+    <footer
+      className="relative w-full md:first-letter:mt-40 pb-10"
+      id="contact"
+    >
       <div className="absolute top-0 left-0 w-full h-full">
         <Image
           src={footerimg}
@@ -44,15 +47,14 @@ const Footer = () => {
 
         <div className="flex items-center md:gap-3 gap-6">
           <div className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300">
-            <Image
-              src={github}
-              alt="icons"
-              width={20}
-              height={20}
-            />
+            <Link href="https://github.com/sanket560">
+              <Image src={github} alt="icons" width={20} height={20} />
+            </Link>
           </div>
           <div className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300">
-            <Image src={linkedin} alt="icons" width={20} height={20} />
+            <Link href="https://www.linkedin.com/in/sanketmane23/">
+              <Image src={linkedin} alt="icons" width={20} height={20} />
+            </Link>
           </div>
         </div>
       </div>
