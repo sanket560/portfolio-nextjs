@@ -14,7 +14,6 @@ import stripe from '../Images/stripe.svg';
 import redux from '../Images/redux.svg';
 import exp1 from '../Images/exp1.svg'
 import exp2 from '../Images/exp2.svg'
-import exp3 from '../Images/exp3.svg'
 
 export const navItems = [
   { name: "About", link: "#about" },
@@ -76,27 +75,39 @@ export const projects = [
 export const workExperience = [
   {
     id: 1,
-    title: "FullStack Developer - Freelancer",
-    company : "Universal Market Research",
-    desc: "Designed the complete system architecture using Figma, followed by meticulous development in Next.js. Implemented custom forms integrated with RESTful APIs and facilitated client-specific report requests, enhancing user engagement and functionality.",
+    title: "Software Enginner - Intern",
+    company : "Syngenta",
+    desc: "Currently working on the Cropwise Planting project, specifically focusing on Zone Management. Responsible for improving UI/UX, optimizing performance, developing new features, and writing test cases to ensure application reliability and robustness. Enhancing system performance to provide a seamless user experience in large-scale agricultural planning.",
     className: "md:col-span-2",
     img: exp1,
+    date : 'Jan 2025 - Present'
   },
   {
     id: 2,
-    title: "Frontend Developer - Intern",
-    company : "WESUPP",
-    desc: "Optimizing the website for performance and user experience, such as improving page load speed and mobile responsiveness. Maintaining the website by updating content, fixing bugs, and adding new features as required.",
-    className: "md:col-span-2", 
+    title: "Full Stack Developer - Freelancer",
+    company : "Visionary Matrix",
+    desc: "Designed the complete system architecture using Figma, followed by meticulous development in Next.js. Implemented custom forms integrated with RESTful APIs and facilitated client-specific report requests, enhancing user engagement and functionality.",
+    className: "md:col-span-2",
     img: exp2,
+    date : 'Jan 2024 - May 2024'
   },
   {
     id: 3,
+    title: "Frontend Developer - Intern",
+    company : "Fyoocher",
+    desc: "Optimizing the website for performance and user experience, such as improving page load speed and mobile responsiveness. Maintaining the website by updating content, fixing bugs, and adding new features as required.",
+    className: "md:col-span-2", 
+    img: exp2,
+    date : 'Jun 2024 - Dec 2024'
+  },
+  {
+    id: 4,
     title: "Guest Lecture on Git & Github",
     company : "Vishwakarma University",
     desc: "Instructed students on version control concepts, emphasizing its importance in collaborative projects. Provided hands-on training in Git, covering installation, configuration, and fundamental commands and operations. Guided students in using GitHub for collaboration, including account setup and workflows involving pull requests and branches.",
     className: "md:col-span-2", 
-    img: exp3,
+    img: exp1,
+    date : '1 Jan 2024'
   }
 ];
 

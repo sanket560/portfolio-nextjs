@@ -40,7 +40,7 @@ const Experience = () => {
                   {card.title}
                 </h1>
                 <p className="text-start text-base text-white-100 md:text-lg">
-                  {card.company}
+                  {card.company} | {card.date}
                 </p>
                 <p className="text-start text-white-100 font-semibold">
                   {card.desc}
