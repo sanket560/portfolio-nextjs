@@ -75,7 +75,7 @@ export const projects = [
 export const workExperience = [
   {
     id: 1,
-    title: "Software Enginner - Intern",
+    title: "Software Engineer - Intern",
     company : "Syngenta",
     desc: "Currently working on the Cropwise Planting project, specifically focusing on Zone Management. Responsible for improving UI/UX, optimizing performance, developing new features, and writing test cases to ensure application reliability and robustness. Enhancing system performance to provide a seamless user experience in large-scale agricultural planning.",
     className: "md:col-span-2",
@@ -95,7 +95,7 @@ export const workExperience = [
     id: 3,
     title: "Frontend Developer - Intern",
     company : "Fyoocher",
-    desc: "Optimizing the website for performance and user experience, such as improving page load speed and mobile responsiveness. Maintaining the website by updating content, fixing bugs, and adding new features as required.",
+    desc: "Worked on a project using React.js and RESTful APIs, contributing to three projects that enhanced user experience and optimized data handling. Ensured responsiveness across devices, improving accessibility and usability for a wider audience. Collaborated with cross-functional teams to gather requirements and implement features.",
     className: "md:col-span-2", 
     img: exp2,
     date : 'Jun 2024 - Dec 2024'

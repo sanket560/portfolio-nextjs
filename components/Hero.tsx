@@ -1,34 +1,25 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import { Spotlight } from "./ui/Spotlight";
 import profilepic from "../Images/pofilepic.png";
 import Image from "next/image";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 import MagicButton from "./ui/MagicButton";
 import { FaFile } from "react-icons/fa";
-import Link from "next/link";
+import ResumeModal from "./ResumeModal";
 
 const Hero = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   return (
     <div className="pb-20 pt-10 md:pt-36" id="about">
       <div>
-        <Spotlight
-          className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
-          fill="white"
-        />
-        <Spotlight
-          className="h-[80vh] w-[50vw] top-10 left-full"
-          fill="purple"
-        />
+        <Spotlight className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen" fill="white" />
+        <Spotlight className="h-[80vh] w-[50vw] top-10 left-full" fill="purple" />
         <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
       </div>
-      <div
-        className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
-       absolute top-0 left-0 flex items-center justify-center"
-      >
-        <div
-          className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100
-         bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
-        />
+      <div className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2] absolute top-0 left-0 flex items-center justify-center">
+        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
       </div>
       <div className="relative flex md:flex-row items-center justify-around flex-col gap-4 my-5 z-10">
         <div className="max-w-[89vw] md:max-w-3xl lg:max-w-[40vw]">
@@ -40,7 +31,7 @@ const Hero = () => {
           </p>
           <TextGenerateEffect
             className="uppercase tracking-widest text-xl text-blue-100 "
-            words="Software Enginner - Intern @ Syngenta | Ex - Frontend Developer - Intern @ ConQT | React.js | Next.js | JavaScript | MERN Stack | Ex-President @ RSD Club, VU | UI enthusiast | Open source enthusiast | VU'25 | JSCOE'22"
+            words="Software Engineer - Intern @ Syngenta | Ex - Frontend Developer - Intern @ ConQT | React.js | Next.js | JavaScript | MERN Stack | Ex-President @ RSD Club, VU | UI enthusiast | Open source enthusiast | VU'25 | JSCOE'22"
           />
         </div>
         <div className="max-w-[89vw] flex items-center md:max-w-3xl lg:max-w-[70vw]">
@@ -48,10 +39,15 @@ const Hero = () => {
         </div>
       </div>
       <div className="w-full flex items-center justify-center">
-        <Link href="https://drive.google.com/file/d/1bfIJo5oki7ph92EvKVV712ET13NTO3-b/view?usp=sharing">
-          <MagicButton title="View Resume" icon={<FaFile />} position="left" />
-        </Link>
+        <MagicButton 
+          title="View Resume" 
+          icon={<FaFile />} 
+          position="left" 
+          handleClick={() => setIsModalOpen(true)}
+        />
       </div>
+
+      {isModalOpen && <ResumeModal onClose={() => setIsModalOpen(false)} />}
     </div>
   );
 };

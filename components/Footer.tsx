@@ -1,5 +1,6 @@
 import MagicButton from "./ui/MagicButton";
 import github from "../Images/skills/github.svg";
+import whitegithub from "../Images/skills/white-github.svg";
 import linkedin from "../Images/linkedin.svg";
 import Image from "next/image";
 import footerimg from "../Images/footer-grid.svg";
@@ -23,9 +24,8 @@ const Footer = () => {
       </div>
 
       <div className="relative flex flex-col items-center z-10">
-        <h1 className="md:heading text-2xl text-center font-semibold lg:max-w-[45vw]">
-          Loved This <span className="text-purple">Portfolio ? </span> Make This
-          Yours By Forking.
+        <h1 className="md:!leading-[3.5rem] md:text-5xl text-2xl text-center font-semibold lg:max-w-[45vw]">
+         Loved This <span className="text-purple">Portfolio?</span> Make This Yours By Forking.
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Fork This Template On GitHub Start Building Your Own Portfolio
@@ -48,12 +48,12 @@ const Footer = () => {
         <div className="flex items-center md:gap-3 gap-6">
           <div className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300">
             <Link href="https://github.com/sanket560">
-              <Image src={github} alt="icons" width={20} height={20} />
+              <Image src={whitegithub} alt="icons" width={30} height={30} />
             </Link>
           </div>
           <div className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300">
             <Link href="https://www.linkedin.com/in/sanketmane23/">
-              <Image src={linkedin} alt="icons" width={20} height={20} />
+              <Image src={linkedin} alt="icons" width={30} height={30} />
             </Link>
           </div>
         </div>

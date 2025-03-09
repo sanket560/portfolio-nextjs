@@ -87,3 +87,28 @@
     background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
   }
 }
+
+.rpv-core__inner-page {
+  @apply dark:bg-black-100 bg-white;
+}
+
+/* Disable text input cursor */
+* {
+  caret-color: transparent;
+}
+
+/* Disable text selection */
+* {
+  user-select: none;
+}
+
+
+/* Hide scrollbar for Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+* {
+  scrollbar-width: none;
+}
