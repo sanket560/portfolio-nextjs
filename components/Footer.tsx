@@ -27,7 +27,7 @@ const Footer = () => {
         <h1 className="md:!leading-[3.5rem] md:text-5xl text-2xl text-center font-semibold lg:max-w-[45vw]">
          Loved This <span className="text-purple">Portfolio?</span> Make This Yours By Forking.
         </h1>
-        <p className="text-white-200 md:mt-10 my-5 text-center">
+        <p className="text-white-200 md:md:mt-10 mt-12 my-5 text-center">
           Fork This Template On GitHub Start Building Your Own Portfolio
           Website.
         </p>

@@ -5,14 +5,14 @@ import profilepic from "../Images/pofilepic.png";
 import Image from "next/image";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 import MagicButton from "./ui/MagicButton";
-import { FaFile } from "react-icons/fa";
+import { SiGoogledocs } from "react-icons/si";
 import ResumeModal from "./ResumeModal";
 
 const Hero = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
-    <div className="pb-20 pt-10 md:pt-36" id="about">
+    <div className="pb-20 pt-10 md:pt-36" id="home">
       <div>
         <Spotlight className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen" fill="white" />
         <Spotlight className="h-[80vh] w-[50vw] top-10 left-full" fill="purple" />
@@ -41,7 +41,7 @@ const Hero = () => {
       <div className="w-full flex items-center justify-center">
         <MagicButton 
           title="View Resume" 
-          icon={<FaFile />} 
+          icon={<SiGoogledocs />} 
           position="left" 
           handleClick={() => setIsModalOpen(true)}
         />

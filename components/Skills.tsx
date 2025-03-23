@@ -6,7 +6,7 @@ import Marquee from 'react-fast-marquee';
 
 const Skills = () => {
   return (
-    <div className="mt-10" id="skills">
+    <div className="md:mt-10 mt-12" id="skills">
       <div className="flex my-16 justify-center lg:py-8">
       <div className="flex items-center">
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>

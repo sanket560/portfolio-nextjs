@@ -15,14 +15,20 @@ import redux from '../Images/redux.svg';
 import exp1 from '../Images/exp1.svg'
 import exp2 from '../Images/exp2.svg'
 
-export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Education", link: "#education" },
-  { name: "Projects", link: "#projects" },
-  { name: "Experience", link: "#experience" },
-  { name: "Skills", link: "#skills" },
-  { name: "Contact", link: "#contact" },
-];
+type NavItem = {
+  name: string
+  link: string
+  icon?: string 
+}
+
+export const navItems: NavItem[] = [
+  { name: "Home", link: "#home", icon: "home" },
+  { name: "Education", link: "#education", icon: "education" },
+  { name: "Projects", link: "#projects", icon: "projects"},
+  { name: "Experience", link: "#experience", icon: "experience" },
+  { name: "Skills", link: "#skills", icon: "skills" },
+  { name: "Contact", link: "#contact", icon: "contact" },
+]
 
 export const education = [
   {

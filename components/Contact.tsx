@@ -45,7 +45,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="mt-10 mb-20 z-50" id="contact">
+    <div className="md:mt-10 mt-12 mb-20 z-50" id="contact">
       <div className="flex my-16 justify-center lg:py-8">
         <div className="flex items-center">
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>

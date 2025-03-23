@@ -10,7 +10,7 @@ import Link from "next/link";
 
 const Project = () => {
   return (
-    <div className="mt-10" id="projects">
+    <div className="md:mt-10 mt-12" id="projects">
       <div className="flex justify-center my-5 lg:py-8">
         <div className="flex items-center">
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
