@@ -30,7 +30,7 @@ const Hero = () => {
             I&apos;m Sanket Mane
           </p>
           <TextGenerateEffect
-            className="uppercase tracking-widest text-xl text-blue-100 "
+            className="uppercase tracking-widest text-lg md:text-xl text-blue-100 "
             words="Software Engineer - Intern @ Syngenta | Ex - Frontend Developer - Intern @ ConQT | React.js | Next.js | JavaScript | MERN Stack | Ex-President @ RSD Club, VU | UI enthusiast | Open source enthusiast | VU'25 | JSCOE'22"
           />
         </div>
