@@ -13,6 +13,8 @@ import tailwind from '../Images/tail.svg';
 import stripe from '../Images/stripe.svg';
 import redux from '../Images/redux.svg';
 import exp1 from '../Images/exp1.svg'
+import syngenta from '../Images/syngenta.svg'
+import vuLogo from '../Images/vu.jpeg'
 import exp2 from '../Images/exp2.svg'
 
 type NavItem = {
@@ -85,7 +87,7 @@ export const workExperience = [
     company : "Syngenta",
     desc: "Currently working on the Cropwise Planting project, specifically focusing on Zone Management. Responsible for improving UI/UX, optimizing performance, developing new features, and writing test cases to ensure application reliability and robustness. Enhancing system performance to provide a seamless user experience in large-scale agricultural planning.",
     className: "md:col-span-2",
-    img: exp1,
+    img: syngenta,
     date : 'Jan 2025 - Present'
   },
   {
@@ -94,7 +96,7 @@ export const workExperience = [
     company : "Visionary Matrix",
     desc: "Designed the complete system architecture using Figma, followed by meticulous development in Next.js. Implemented custom forms integrated with RESTful APIs and facilitated client-specific report requests, enhancing user engagement and functionality.",
     className: "md:col-span-2",
-    img: exp2,
+    img: exp1,
     date : 'Jan 2024 - May 2024'
   },
   {
@@ -112,7 +114,7 @@ export const workExperience = [
     company : "Vishwakarma University",
     desc: "Instructed students on version control concepts, emphasizing its importance in collaborative projects. Provided hands-on training in Git, covering installation, configuration, and fundamental commands and operations. Guided students in using GitHub for collaboration, including account setup and workflows involving pull requests and branches.",
     className: "md:col-span-2", 
-    img: exp1,
+    img: vuLogo,
     date : '1 Jan 2024'
   }
 ];

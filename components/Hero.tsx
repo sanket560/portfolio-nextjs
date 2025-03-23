@@ -23,10 +23,10 @@ const Hero = () => {
       </div>
       <div className="relative flex md:flex-row items-center justify-around flex-col gap-4 my-5 z-10">
         <div className="max-w-[89vw] md:max-w-3xl lg:max-w-[40vw]">
-          <p className="md:tracking-wider font-bold mb-4 text-4xl md:text-5xl lg:text-5xl">
+          <p className="md:tracking-wider font-bold mb-4 text-3xl md:text-5xl lg:text-5xl">
             Hi There,
           </p>
-          <p className="md:tracking-wider font-bold mb-4 text-4xl md:text-5xl lg:text-5xl">
+          <p className="md:tracking-wider font-bold mb-4 text-3xl md:text-5xl lg:text-5xl">
             I&apos;m Sanket Mane
           </p>
           <TextGenerateEffect
