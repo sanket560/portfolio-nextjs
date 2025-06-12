@@ -31,7 +31,7 @@ const Hero = () => {
           </p>
           <TextGenerateEffect
             className="uppercase tracking-widest text-lg md:text-xl text-blue-100 "
-            words="Software Engineer - Intern @ Syngenta | Ex - Frontend Developer - Intern @ ConQT | React.js | Next.js | JavaScript | MERN Stack | Ex-President @ RSD Club, VU | UI enthusiast | Open source enthusiast | VU'25 | JSCOE'22"
+            words="Software Engineer - Intern @ Syngenta | Ex - Frontend Developer - Intern @ ConQT | React.js | Next.js | JavaScript | TypeScript | Playwright (testing) | MERN Stack | Ex-President @ RSD Club, VU | VU'25 | JSCOE'22"
           />
         </div>
         <div className="max-w-[89vw] flex items-center md:max-w-3xl lg:max-w-[70vw]">
