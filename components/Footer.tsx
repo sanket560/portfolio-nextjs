@@ -10,7 +10,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer
-      className="relative w-full md:first-letter:mt-40 pb-10"
+      className="relative w-full md:first-letter:mt-40 pb-24"
       id="contact"
     >
       <div className="absolute top-0 left-0 w-full h-full">

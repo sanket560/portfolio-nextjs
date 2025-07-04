@@ -9,6 +9,7 @@ const MagicButton = ({
   otherClasses,
   type = "button",
   loading = false,
+  className,
 }: {
   title: string;
   icon: React.ReactNode;
@@ -17,12 +18,13 @@ const MagicButton = ({
   otherClasses?: string;
   type?: "button" | "submit" | "reset";
   loading?: boolean;
+  className? : string;
 }) => {
   const iconStyle = { width: "25px", height: "25px" };
 
   return (
     <button
-      className="relative inline-flex h-12 w-full md:w-60 md:mt-10 overflow-hidden rounded-lg p-[1px] focus:outline-none"
+      className={`relative inline-flex h-12 w-full md:w-60 md:mt-10 overflow-hidden rounded-lg p-[1px] focus:outline-none ${className}`}
       onClick={handleClick}
       type={type}
     >

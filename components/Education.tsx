@@ -22,6 +22,7 @@ const Education = () => {
             collegeName={value.collegeName}
             completion={value.completion}
             img={value.img}
+            marks={value.marks}
           />
         );
       })}

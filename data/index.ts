@@ -36,21 +36,17 @@ export const education = [
   {
     course: "Bachelor Of Technology In Computer Engineering",
     collegeName: "Vishwakarma University, Pune",
-    completion: "2022 - 2025 | Pursuing",
+    completion: "2022 - 2025 | Completed",
     img: vu,
+    marks: "CGPA : 8.7 / 10",
   },
   {
     course: "Diploma In Computer Engineering",
     collegeName: "Jaywantrao Sawant Polytechnic, Pune",
     completion: "2019 - 2022 | Completed",
     img: jsp,
-  },
-  {
-    course: "Secondary School Of Certificate",
-    collegeName: "Hillgreen High School, Pune",
-    completion: "2015 - 2019 | Completed",
-    img: hhs,
-  },
+    marks: "CGPA : 8.2 / 10",
+  }
 ];
 
 export const projects = [

@@ -9,11 +9,13 @@ export function EducationCard({
   course,
   completion,
   img,
+  marks,
 }: {
   collegeName: String;
   course: String;
   completion: String;
   img: any;
+  marks: String;
 }) {
   return (
     <CardContainer className="inter-var">
@@ -47,6 +49,13 @@ export function EducationCard({
             className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
           >
             {completion}
+          </CardItem>
+          <CardItem
+            as="p"
+            translateZ="60"
+            className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+          >
+            {marks}
           </CardItem>
         </div>
       </CardBody>
