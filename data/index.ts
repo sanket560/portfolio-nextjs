@@ -56,7 +56,7 @@ export const projects = [
       des: "Developed a comprehensive ECommerce platform enabling users to seamlessly browse products, manage their shopping cart, and process orders. Implemented a dynamic product browsing and checkout, with integrated Stripe payment processing.",
       img: echobazar,
       iconLists: [react , nextjs, mongodb, tailwind, stripe],
-      link: "https://echobazar.vercel.app/",
+      link: "https://echobazar.netlify.app/",
     },
     {
       id: 2,
